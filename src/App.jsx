@@ -5,7 +5,7 @@ import './App.css'
 import SearchImage from './api'
 
 function App() {
-  const [image, setImages] = useState([])
+  const [images, setImages] = useState([])
 
   const handleSubmit = async(term) => {
     console.log('usted esta buscando con:', term)
